@@ -72,3 +72,7 @@ __pycache__
 
 docs/build
 site/
+lib/python3.8/
+myenv/
+share/
+bin
