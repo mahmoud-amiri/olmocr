@@ -1,0 +1,730 @@
+[33m96364e2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Track Miniconda installer using Git LFS
+[33m4c5ead8[m Track installer script with Git LFS
+[33m5c69952[m add more pdf
+[33mc24515c[m mak a new database based on the chemistry papers
+[33m5c67520[m Working on equation matching
+[33me87057c[m Working on a better compare function
+[33m07a0626[m Fix markdown parsing for mistral
+[33me809347[m Adding mistral ocr to eval
+[33mde5ea04[m Work on image matching
+[33m3e3def9[m Better error handling on eqn rendering
+[33m8318584[m Some more math stuff
+[33m2e6f820[m First math tests
+[33mad6f586[m Equation rendering code, first pass
+[33m19dba26[m Adding a trailing repetition test
+[33md6d068d[m Stats tests
+[33m1aee4ba[m Marker rerun, stats changes
+[33mbcf447e[m Conversion fixes
+[33m19b03a3[m Better convert script
+[33m9ac0937[m Better conversion script, run on more things
+[33md5b2e4c[m Need those chat templates
+[33m44a79eb[m Model runners
+[33m18ce4e7[m Convert script work with server backends
+[33ma2c2ed4[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33mc05018f[m Convert scripts for benchmark
+[33m7f09a77[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33m602e374[m Docker file builds faster now
+[33mf1592bf[m Adding more work on diffs
+[33mcb0d9e0[m Nice tables support
+[33m7c1669e[m Better table tests
+[33mff0835d[m Adding basic table relative tests
+[33m5bf6ad9[m Synth rendering ideas
+[33m003b3ad[m Fixing the mine diffs script, but it still doesn't work great
+[33ma458dbe[m Consistent ordering on convert, with data dir script
+[33mdea8ab7[m Making a nicer warning message when waiting for sglang server
+[33m6bc69b0[m One last lint fix
+[33m078ab8d[m Internal version bump
+[33m2934e47[m double parentheses for proper escaping
+[33ma8b107c[m Ruff fixes to CI
+[33m04ef261[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33m2215ce4[m Probably need at least 20GB GPU ram to have a good time with olmocr
+[33mc0593a8[m Update action.yml to use cache v3
+[33m82ec315[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33m015cee9[m Fix for calling --pdfs with an invalid pdf
+[33m32e9986[m Update README.md
+[33m556d7d4[m Fix so that the pipeline.py attempts to download the model weights first, before starting the loading timeout
+[33mfffd1db[m Small fix
+[33m8b149e9[m convert script
+[33ma1dd48d[m Some new entries
+[33m954dc80[m Minor fixes
+[33m9b0b159[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33md2d5b1e[m Organizing things for data entry
+[33m15b4c0a[m Working viewer
+[33m7a62b26[m Merge pull request #62 from allenai/amanr/bench
+[33mca0f909[m resolved viewer merge conflict
+[33m936d593[m Working on viewer/editor for rules
+[33m6ffadd1[m Mining diff script outputs candidate rules
+[33m16172e2[m resolved Jake's comments
+[33md26d247[m Autominer work
+[33mb152c2a[m updated changelog
+[33mdfac96a[m cleaning
+[33mfa99cc5[m more cleaning
+[33m210d69d[m restored changes wrt main
+[33m7d1871c[m Merge pull request #61 from allenai/kylel/elo
+[33m06c6dfd[m More work on automining
+[33md0073c3[m readme
+[33m54a290c[m Merge branch 'main' into kylel/elo
+[33mcd0772e[m commits
+[33m5185762[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33m7151433[m Working on some progress for the autominer, fixing more options in convert script
+[33md75bb64[m Update README.md
+[33m7679f8e[m Script fixups
+[33m7d9b49a[m automine draft
+[33m3642651[m Refactoring
+[33me46fddd[m More factoring
+[33m6bc5142[m added viewer for gemini vs chatgpt
+[33m294a1e0[m update
+[33m3aaffa2[m restored the fine-tuning prompt
+[33m795503d[m update
+[33ma6ec4e2[m fixes missing OSS code for Issue #36
+[33m6270fa7[m updated gemini
+[33m2fa7ff0[m added gemini and claude
+[33m7e9b0bb[m update
+[33mae2253f[m Olmocr runner implemented
+[33md2de98b[m chatgpt converter
+[33m73ded51[m Basic rule viewer
+[33mf07ef6d[m Update README.md
+[33m9acaafe[m fixed style
+[33mae96c58[m updated readme
+[33mc07f871[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33mb05b201[m Fixing mineru runner, added a few sample docs
+[33me48976d[m Update README.md
+[33mb9142b3[m Update README.md
+[33m814fde8[m Bugfixes
+[33m1c33b29[m Cleaner implementations of benchmark stuff
+[33m33d9a6e[m Refactoring
+[33m6d2de7b[m Starting refactor
+[33mfff692a[m olmocr bench runner
+[33m1142219[m Pdf for dataset
+[33m91c53f1[m olmocr running
+[33mda5f24c[m Adding more rules and seeing how they should work
+[33m3abe073[m Adding mineru script
+[33m6e66b00[m Fixing up benchmark a bit
+[33mc75cd1c[m Some readmes and instructions
+[33mc9fe0b0[m Runner for olmocr bench
+[33me0137ce[m Benchmark runners for other systems
+[33m5a55663[m Adding runbench
+[33mb4ce0b6[m Making progress
+[33m0b4b77d[m Making some progress
+[33m33997fd[m Sample code for olmocrbench
+[33m392881b[m Adding readme for olmocr bench
+[33mb8ff18e[m Infinigram counting script for paper
+[33mf11f5ff[m Match script
+[33m3f49805[m Small helper to measure overlap
+[33m51c48f1[m Bump version to v0.1.58 for release
+[33mc8f28bd[m Update README.md
+[33m2ff5901[m Bump version to v0.1.57 for release
+[33m1e9267e[m Fixing release script
+[33m03d7de1[m Bump version to v0.1.56 for release
+[33m9d70620[m pyproject.toml changes
+[33m6956d2f[m Bump version to v0.1.55 for release
+[33m72f7ac6[m toml fix
+[33md2ba739[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33m3644c72[m Adjusting tools to include html templates
+[33m305dbfa[m Update README.md
+[33mf8347bc[m Bump version to v0.1.53 for release
+[33m797a56b[m CI
+[33me9f7939[m CI
+[33md7490c9[m Hopefully CI runs now
+[33mdd6615d[m Install poppler in CI
+[33m564ef31[m unused imports
+[33m4a22cf4[m Formatting fix
+[33m73e5993[m Update README.md
+[33md55aa24[m hfupload scripts
+[33m15362ed[m add boxplot drawing
+[33mb7d483a[m update args; include output
+[33m2ba5a9a[m human eval data; elo ratings script; dependencies
+[33mea51678[m Making my parquets
+[33m300876c[m Better converter
+[33m1e5cd64[m Update README.md
+[33m89cdc06[m Adding some gnarly 1 pager pdfs from kyle
+[33m86e357e[m First pass at dataset builder script
+[33m6624aa5[m Generating parquets for hugging face
+[33m9150c3e[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33m8d4ca7e[m Remove unused
+[33md6790f5[m Random git ignores, remove unused code
+[33m0eb4a97[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33md9638e2[m Updating to new model name on HF
+[33m827771e[m Merge pull request #28 from allenai/amanr/code_documentation
+[33mb491cf2[m restored `modeling_molmo.py` file
+[33mff1b6bc[m updated changelog
+[33m4cdc21e[m fixed lint check
+[33m21730f3[m resolved all the mypy, black and isort issues and updated readme
+[33m9744dff[m Comment fix
+[33m781bac3[m Removing pymupdf
+[33mb5d8fb1[m More dev dependecies
+[33mc186534[m Project setup
+[33m1ef8f43[m Shortened some sample docs
+[33me62d6a0[m Even newer mypy crashes still
+[33mc156e55[m Pipeline fixes
+[33mc39b2b8[m More beaker and docker fixes
+[33m990d0f8[m Beaker fixes
+[33me83d412[m Pipeline fixes
+[33m02ebfac[m Remove mypy for now
+[33m7650e5f[m Hopefully fixes build
+[33m3e6ce36[m More cleanup, removing dead adv anchor code
+[33mf2ba26f[m Nicer glob handing for pipeline.py
+[33mf9551cf[m More formatting
+[33m725d132[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33ma4243c1[m running isort again
+[33m5df7bc5[m Update README.md
+[33mdaf68fd[m Update README.md
+[33m32e3988[m Fixing most ruff errors
+[33m7ef85f7[m Ruff
+[33m396dcd8[m Isort and black update
+[33m9fd6bf4[m Python 3.11
+[33ma158e95[m Black formatting
+[33ma30869c[m isort
+[33m76a95ac[m Some unit test cleanup
+[33ma3639f2[m More infos
+[33m28958e2[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33m85aaec4[m More logging on sglang server
+[33m46cb8bf[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33ma1df537[m Typo
+[33maf35a2f[m Update README.md
+[33mc492711[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33m4cf362c[m Add gpu message
+[33mdf73c94[m Update README.md
+[33mf355d04[m readme
+[33m72496f1[m Readme
+[33m280931b[m Update README.md
+[33m8f9e7af[m Readme
+[33m29d56e8[m Update README.md
+[33m08e4f57[m Viewer and gitignore
+[33mae865dc[m Viewer cleanup
+[33m9bd7243[m Update README.md
+[33m5d4a596[m viewer fix
+[33mcf452c5[m More readme imporvements
+[33mfc610e5[m Readme improvements
+[33m6d02337[m Local file stuff
+[33m07f9f51[m Local pdf support
+[33mfae6e16[m Support stats feature later
+[33m9f173e6[m Can use remote s3 files, and local workspace now
+[33md58e3ee[m Name refactor
+[33m00a3701[m Better check for separate sglang installation step
+[33m629bb84[m Inference test for qwen2 and 2.5, work queue fixes, build current still broken
+[33m5f0fabe[m Merge branch 'main' of https://github.com/allenai/olmocr
+[33mb8b9352[m More test docs
+[33m737ed82[m Merge branch 'main' of https://github.com/allenai/olmocr into main
+[33m3f44561[m Remove some todos
+[33m43528f5[m Refactoring
+[33m50ed576[m Cleaning up some unused code
+[33m4001741[m Readmes and version updates
+[33mdd863ac[m Massive refactor from pdelfin to olmocr
+[33m6bd3a8d[m Update README.md
+[33m10ce2fe[m Merge pull request #27 from allenai/molmo
+[33m6b08daa[m more elos
+[33m2f798a7[m Higher lr for molmo, fixed evals
+[33m3fe7bb8[m Dealing with issue with molmo unused params
+[33me06702f[m More configs
+[33m2981e96[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m5b4bcc9[m csv output
+[33mdf0252f[m Getting ready to train molmo 4096 context
+[33mbb5fb86[m Manually adding gradient checkpointing
+[33m11cb284[m Adding molmo code locally
+[33m52fe673[m Doing some debugging
+[33m21146d8[m Config update
+[33m706df6e[m Reviewing molmo training
+[33m91c6032[m Some small updates
+[33m3e47c79[m Building some data summary tools
+[33md2b2e61[m ELO stuff
+[33m409bc40[m New ELO building stuff finished up I think
+[33ma87de2b[m build elo v1
+[33md540d59[m Added ELO scores
+[33mc63280f[m Fixes for elo
+[33m9624de3[m More elo scoring stuff
+[33m8c90052[m runelo start
+[33m7c9b84c[m Test set script
+[33m36fc22e[m Better error handling on expand_s3_glob
+[33m7146b7a[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m6be65f2[m Small fixes
+[33m369bd8c[m Update README.md
+[33mb1b51dc[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33md96753e[m Adding some long context  stats
+[33mb5bb9b6[m Ok, direct easy test for diffs now
+[33mfa26cf5[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m5bf54e8[m Working on some random tests
+[33m6a9cd00[m Move form check into exception handler, don't mark the work item as done if it had an exception on it
+[33m70afa4d[m New version with s3 fix in it
+[33mc65cea9[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m11ee6d4[m Skipping files which are not found
+[33m5c26a51[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m740ce80[m Some more tests
+[33md9aa71c[m Ignores
+[33m85f0e5a[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m808c6d0[m Dolma viewer niceties
+[33ma2c2e15[m Moving to manual HTTP Post, have had succss with 10k page files now
+[33m54a2aef[m Better error handling
+[33mbb86cfa[m Limit the number of retries on the server process
+[33m0f82d89[m More robust to errors when reading logs which had caused freezes
+[33m6ef6ac7[m More reliable weka
+[33m0597b45[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m745b4c1[m Missing import
+[33m15062c2[m aaa
+[33m0523958[m More prints
+[33me9310b7[m Doing some experiments
+[33mf694f8a[m More log probs investigation
+[33m583b7a4[m More test code
+[33m648f82f[m Not happy here with this test
+[33m69e3663[m Full test
+[33m2fbca7f[m Working on HF test for comparison
+[33m223330f[m Sglang based unit test
+[33m10f19fd[m tests
+[33m5e40d0c[m Startingon sglang test
+[33m0c40dfc[m Unit tests fixes
+[33mfa599f3[m More things to try
+[33m73b1908[m Trying fixes for live lock
+[33mddb2ca5[m Error out if you see a broken process pool, might need a better check for this
+[33med4ff62[m Adding check for possible sglang livelock
+[33mccecb5b[m Moving to official sglang release
+[33m694c9b0[m Better catching of httpx errors and retrying them
+[33m8f4265e[m Faster init by caching pdf filter
+[33m65b710c[m Fix for fallback stuff
+[33mf6dd9c0[m New version
+[33m9fa1b5d[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33mc288a42[m More convservative filtering
+[33m6cb5fac[m Applying pdf filter
+[33m55d55b7[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m93a264f[m New version
+[33mbb57ca3[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33md522eb0[m Adding mass filtering script
+[33m285e71a[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m3945bd0[m No keep alive connection to try to resolve sglang livelock
+[33m2eca424[m Projected output tokens
+[33m108866e[m new version
+[33m5ca6a45[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m301c979[m TODOs and client fix
+[33m8efcd4b[m Baseline repeat detect
+[33mb195957[m More tests
+[33m081adcd[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33mfc3113b[m Better stats and metadata
+[33md1f309c[m Update README.md
+[33m8ffe055[m Update README.md
+[33mbb38da3[m Logging fallback pages
+[33m2871636[m Adding support for fallback pages
+[33m9cd049c[m Better stats
+[33m9bc5b07[m Fixing args
+[33md196c1a[m Claude recommends httpx instead of aiohttp, seeing if that will help with straggler timeouts
+[33m410af78[m Version patch
+[33mfcb6e4f[m More fixes
+[33m6fb25c7[m Adding more retries, and it was able to process more complicated books
+[33m741e606[m fix
+[33m870b284[m more gcs
+[33m235fb0a[m Fix
+[33m26f79aa[m Gcs support better
+[33m7c7c737[m docs
+[33mc7ad829[m Fixing a few stats things
+[33mecdab4d[m Better work queue
+[33m4fd4db3[m Basic work queue from claude
+[33m53a0154[m Fixes, mocking out queue into separate file
+[33mf446187[m Handling more error cases
+[33m3583e5b[m Fix a reliability issue
+[33m7af01df[m Adding page rotation
+[33m4221bf0[m Running on l40s, fixing queue
+[33m0cf18c9[m Adding stats
+[33m90e75a3[m Decent set of todos for monday
+[33m52a628b[m Stop everything on a Nan
+[33mab1d714[m allow weka from augusta through vpn
+[33mecebb25[m new build
+[33m7b37e73[m no weka on augusta
+[33mfd6d67e[m Single cluster fix
+[33mfbdcb4a[m Fix
+[33mfe13fcc[m Fix
+[33md31e8bd[m Fixing timeout situation
+[33m468618e[m Don't retry accessdenied errors
+[33mbc9f96e[m Cleaner exit
+[33mb992c6c[m New version with aiohttp fixes
+[33m798c8e8[m More realistic results
+[33m5f92301[m Docker
+[33m3cb6299[m Debugging timeout errors and other things
+[33md447f48[m Trying to make it faster
+[33mce12bc5[m Fixing one max context issue
+[33m62bb744[m weka fix
+[33mcf12268[m Logging
+[33mf5cfdbc[m Cleanup code, s3 retries
+[33mf6cb3b6[m I think I have error handling better now
+[33m9bb173d[m Page calc
+[33m9941d4c[m Fixing bugs
+[33mb95cfe3[m Fixing work queue population
+[33m0ce1502[m Working on task groups
+[33m1bccd67[m better logging
+[33m50bd4d3[m Allow setting beaker priority
+[33m12f5605[m exponential backoff
+[33m60a021a[m more fixes
+[33m979f00c[m Fix timeout
+[33m8a60b6d[m Beaker stuff
+[33m8b901d6[m Beaker fixes
+[33mf6f418f[m Shuffling
+[33mdd9f40c[m Creds and other things
+[33m4f953c4[m fix
+[33mee40022[m Dockerfile fixes
+[33m8c6a86c[m Using version strings
+[33mf83ce6d[m Secrets management
+[33m4ea7083[m Beaker running
+[33meb8da1b[m Docker builds
+[33m8369e00[m Starting to play with docker too
+[33m632d7ac[m pipeline
+[33m2d28329[m Beaker test
+[33m7626ef6[m Downloads from s3 based on hash
+[33m762beb0[m Control http session at the worker level
+[33mebd56ac[m Stuff
+[33m1411c48[m Better stats
+[33md5ac3e6[m Measuring metrics better now
+[33m7d6bd26[m Semaphore timeout
+[33mb974c30[m new version of sglang, server restarts, semaphore timeouts
+[33m8d233f4[m Pipeline stuff
+[33me50208e[m A few items
+[33m08b619e[m Quicker results by limited workers via semaphore while still utilizing gpu
+[33m6351072[m Logging and perf stuff
+[33mb257795[m FIxes
+[33m24b7115[m Some errors dealt with
+[33m335aa74[m Trying to get reliablity up
+[33m178399f[m Small fixes
+[33me19d7d2[m Code to get stats
+[33ma476d41[m Bugfixes
+[33m1c85154[m Refactoring to assemble docs
+[33m07b53ea[m Minor fixes
+[33mce3cbf8[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m5c81f81[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m725b07e[m Debug statements for pipeline
+[33m7970306[m Reqs
+[33m905f992[m some cleanups
+[33m9cb1aba[m Starting to work
+[33ma058c6c[m Progress
+[33mc9a3671[m Working on script
+[33m52c4366[m Organization
+[33m384f3f2[m Starting up server and workers async now
+[33m212dc6f[m Reworking to be async
+[33m7a7451f[m Some small things
+[33m6c9deda[m Work queue coallescing
+[33me285314[m Doing some more stuff
+[33mf21db71[m exit handlers
+[33m175b193[m Prepping work script
+[33m03cf720[m Model download stuff
+[33m0dafcce[m Starting on a new approach
+[33mfb98d0e[m Putting aside redis
+[33me65c30e[m Work queue sharing thing
+[33m7ed6f75[m Experimental beaker pipeline self organizing redis idea
+[33me01432b[m sglang support for runeval
+[33m90f7b85[m More docs
+[33mfe5bd4a[m Docs good now
+[33m924565c[m docs
+[33mf223245[m docs
+[33mf76482c[m docs
+[33md1a0123[m More docs
+[33m6e26faa[m More docs
+[33mb6f0d32[m Logger fix
+[33m758beda[m More docs
+[33me0c946f[m Adding more docs
+[33m5d74957[m Checkfix
+[33m0764426[m Add check for poppler installation
+[33m4f1c035[m Update README.md
+[33m7442f26[m Removing some logs
+[33m175b5bc[m flash attn
+[33m6772797[m Trust remote code
+[33m851254d[m Config typo
+[33me9b6518[m train script
+[33m1a895de[m Config updates
+[33m75477fb[m Hopefully working molmo HF trainer config
+[33mddd81f5[m Startng to write molmo formatters
+[33m0dcd6ce[m Some better logging
+[33m9e6306e[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m494f40e[m Proper selection of LORA weights
+[33mbbd4c1b[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33mb912639[m Fixing issues with pdf parsing
+[33mcf076bc[m Starting on molmo changes
+[33m38ebe9c[m Pipeline stability fixes hopefully and logging
+[33m6223682[m Applying rotation corrections
+[33mec7c342[m Adding some rotation retry contrl
+[33mbdf47b8[m Fixing some reliability issues with the pipeline script
+[33m1e1881e[m Switching to logging vs prints
+[33m1fdfe6d[m Update all docs at once
+[33md966be3[m Adding some skip logic
+[33m556a640[m swtichin to orjson, some better json error handling
+[33m49fe804[m Reindexing
+[33mb396a4e[m List configs to list
+[33m3f0967b[m Fix
+[33m912664b[m dataprep sampling tests
+[33mf8b5611[m Allow sampling different anchor text lens
+[33m66d1a84[m Allow for sampling anchor and other params
+[33m4b5309b[m Adding empty anchor support
+[33mb0675cb[m Some cleanup
+[33m43e9719[m Some crazy idea I had to simplify futures and memory limits
+[33md250c9f[m vllm benchmarker
+[33m5f339aa[m Fixing one old bug to make update_static atomic
+[33m63046b1[m Refactored to have a more efficient batchwriter, and also not allow too many running futures
+[33mabb8152[m Adding vllm profile script for reference
+[33m3a50b91[m index
+[33m9cf2371[m Fix pipeline bug with indexing
+[33m974b3ca[m S2orc dataset extractor
+[33m9f7798d[m Yay matches between birr and hf
+[33mab3af43[m Small fixes
+[33mec2ab58[m train more steps
+[33m3b21f7a[m Try to save at the last second only
+[33me34aa24[m Birr tokenization test
+[33m792fbe1[m help text
+[33m8354e90[m Birr tests that don't do anything but help me understand the universe
+[33macdd33c[m Adding parameters for taget image and anchor text sizes
+[33m44772a8[m Removing rotation invalid ones to see what happens
+[33m703d010[m Filter refactor
+[33m018ef25[m Trying save to s3 but with threaded saver
+[33m5f434bf[m Fix
+[33mf016737[m Fixing saving bug again
+[33m1464e5b[m Nice test for picking proper page in birrpipelie
+[33mb3bd228[m Choosing proper page
+[33m5f95d65[m Put LR back, need to save larger checkpoints to weka to prevent timeouts
+[33m5a83182[m Try lora run higher LR
+[33m89f611c[m Yay all unit tests pass cleanly now too
+[33m5c141c2[m Hmm, cant repro failing anchor case
+[33madb1ecb[m Fixes to prevent errors later in dataloading
+[33mf231d67[m Adding check that pdfs are valid in the new anchor text generation format
+[33m3ed0bc3[m will try lower lr
+[33md9e5892[m Prepping for more training
+[33m0ec25c7[m New image
+[33md90c0bf[m Docker update
+[33m5d5942b[m Adding cache
+[33meff746a[m Ensuring unique names
+[33m4543c36[m Full dataset
+[33md559963[m fix
+[33mec6a533[m Truncation handled in a custom collator
+[33m21ff40d[m Prepping to train
+[33m6e4e692[m fix
+[33m3b0af1a[m First part of new dataloader
+[33mf28a005[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33me98cf0c[m Adding test case
+[33ma516e4b[m Config work
+[33m5d14799[m Refactoring of train dataloaders
+[33m6aeaf9b[m Organizing around a new style of dataloader
+[33m67b9d71[m more stuff
+[33me4058cd[m mathjax
+[33m18a25c9[m Fixing links, rendering tables
+[33m88bb551[m dolma viewer runs much faster now
+[33m8944202[m Refactoring
+[33ma26fb67[m Dolma viewer improvements
+[33m98eae00[m Make the prompt hint randomly select lines
+[33m913ea60[m Better tracking of completion_errors
+[33md3ba6e1[m More stats
+[33m32c4d99[m Nicer dolma viewer
+[33m520cd5f[m Dolma viewer
+[33md30cbe3[m tiny fix
+[33mb923120[m fix
+[33m4a92f37[m Adjusting workflow so I can do s2 pdfs
+[33mac2c294[m Some pipeline cleanup stuff
+[33m5ffe862[m Fixing dataloader hopefully
+[33m17f1756[m More stats hopefully running faster
+[33m6abbe55[m Adding nicer output stats
+[33mf79dd32[m Robustness
+[33m326cccb[m Runs to the end now
+[33m0e2aab5[m More and more fixes
+[33mc69a51d[m Tracking rounds of inference better
+[33m6a94fb2[m More refactoring
+[33mc241b55[m Pipeline working hopefully soon
+[33m4835bec[m More pipeline code
+[33m5a78635[m New pipeline stuff
+[33md8287c5[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m57109fe[m Pipeline work
+[33mecf2dab[m Code to do local inference on fine tuned models for testing
+[33m460d8a8[m Refactoring
+[33m6045d93[m gpt cleanup
+[33mcfdb790[m More cleanup
+[33m0fd316c[m More pipeline code
+[33m4b6f417[m fix
+[33m47e65ab[m dbmanager
+[33m0ff79bc[m Oops removing print
+[33mb9ffbb0[m Fix for anchor generation on pdfs with no text elements
+[33m84d8370[m assemble
+[33ma752d03[m Ok, finally working nicely to build the page index
+[33m2492454[m pipeline script
+[33meef940d[m Working on new pipeline script
+[33m43fb94f[m Preloading the datasets directly
+[33m1d7ff63[m Fixes
+[33md889611[m Dataloader fix with nicer tests
+[33m0d10fe6[m Fix up some tests but I don't see why this isn't working
+[33m2fe44c0[m Faster eval script
+[33m23b6b41[m Allow eval script to support one more type of jsonls, runpipeline multiglobs, other fixes
+[33m62853fc[m First stab at document assembly
+[33m23b35f3[m Taking notes, starting on document assembly
+[33m0854b4a[m runpipeline
+[33m0c79c40[m bugfixes
+[33mba5c15a[m run pipeline
+[33m31c6312[m Stuff
+[33m47720dc[m Refactoring, startng to write run_pipeline
+[33m17f53b6[m Refactoring
+[33mf08f12b[m Adding diff to tinyhost
+[33mdfe5691[m Unifying some of the pdf rendering stuff
+[33m6a0c16b[m Cleaning up anchor text to deal with abnormally long lines
+[33m2c9fe7f[m Rewriting prompts to eval with new model
+[33mf977904[m fix
+[33m503108c[m try lower lr
+[33m68e0d66[m Trying new run that will rewrite the prompts as it goes
+[33m96d8a1e[m Anchor is fixed to sample text elements better
+[33m17b4cef[m Adding image merging to pdf report/hint/anchor
+[33me2b9f30[m Adding prompt length histogram to a script
+[33me5af655[m FIxing wandb key
+[33mce7e995[m Lower lr
+[33m88bbd10[m Fixing eval script, working FSDP config
+[33mca9c338[m Trying grad checkpoint
+[33mf15c52e[m Updated eval script
+[33m4ba834b[m Trying out non-lora training
+[33m8929a03[m Filtering based on cpu count
+[33m61078d9[m Fix dataloader bug
+[33m6eafad0[m loading fix for parquets again...
+[33m40e18b4[m typo
+[33m8869acb[m Adding support for parquet datasets which are precached
+[33m4279cc9[m Starting code to build parquets...
+[33m3feb377[m Typo
+[33m8a20ee7[m Typo
+[33mc790cec[m Hopefully fixing dataloader for now
+[33m91d94fa[m Fix for unicode errors in big datasets for the future
+[33m0bcd103[m Hopefully can use weka for the train datasets now
+[33ma420856[m Weird issue with surrogate pairs in json
+[33m758fca4[m Allow loading files locally
+[33meedecb3[m Pinning datasets to work around weird issue
+[33m8b44a79[m Prepping for qwen2vl full training run
+[33mde4569c[m Hopefully working better
+[33mc1dcce4[m checkpoint on new runner for openai batches
+[33mb8bec43[m new better runopenaibatch script
+[33m5ce10d5[m Hopefully finishing touches
+[33m7fe109b[m Fix
+[33m665cd15[m Fixes
+[33m0c0402e[m Bugfixes
+[33m2c65c16[m New send silver script for testing
+[33m3944ee2[m Support for more evals and output formats
+[33m99542a8[m I'm pretty sure we only need to save on rank0
+[33m41afd16[m Running a mini config again with metric
+[33m9e273ae[m Adding eval on start and seed params
+[33m9241409[m Mini train config
+[33mb25014a[m Pinning to normal transformers version now
+[33m290e044[m Adding pluto ib
+[33m5bea890[m Getting ready to launch a new training run
+[33m6236080[m Checking filtering logic
+[33mb82abb8[m A few notes, starting to test dataloader with new structured response format
+[33mb5d9d8c[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33mc266d28[m Readme
+[33m24c5b23[m Update README.md
+[33m71dd0ee[m Small prompt fix
+[33m10b82fc[m Need more token output due to structured outputs
+[33mdbe87c3[m Fixes and evals for structured outputs
+[33m6aa42fc[m Building openai prompt with structured output
+[33m14ed755[m Switching buildsilver to use new anchor code
+[33me02388d[m Appears as if the report method works really well, might need one last step to detect rotated pages
+[33m95ca4a5[m Fix for voting on multiple docs in the same eval page
+[33m49e1f70[m Review page size option, fixing mkdirs in convertsilver script
+[33ma4faf58[m Adding flag to allow skipping filter
+[33mdf2fc50[m filtering out stupid ads
+[33m2829223[m Can spit out anchor text for a gpt engine using pypdf, showing locations of images and text
+[33m70a6026[m Adding anchor code based off of pypdf that visits each text block, hopefully so we can make it output good bboxes
+[33me36e40a[m coherency based anchor text
+[33m87dad17[m prepping anchor text generation code
+[33m5775d3b[m Fixing bug where we were not showing all the worst alignments
+[33m4aec24a[m Runeval is much improved now
+[33m415ef28[m Script to rerun openai prompts on the same data
+[33m3cd2c15[m Prompt utils
+[33m7747501[m Qwen checkpoint fixer script
+[33m88e13b1[m Convert silver adjustments
+[33me583010[m Open ai to openai comparison now supported, new prompts
+[33mc570f00[m Fixing qwen checkpoint script
+[33mf115c52[m Convertsilver birr script can go in and out of S3 now
+[33mcb28ba7[m Fixes to convertsilver to birr script
+[33mba4945b[m Refactoring prompts into their own new folder
+[33mfe75f9b[m Send silver script tries to open file first, before sending an API requests
+[33mfa3555d[m retrieve silver script reports errors better
+[33mc871f49[m Buildsilver script suppors reservoir sampling so it can sample 100M+ paths now efficiently
+[33m4fd99c4[m dataprep issue
+[33m7815433[m Datasetdict fix
+[33mad51856[m Fixing the refiner input prompt to something simpler that doesn't depend on the training data. Fixing beaker job workspace and bumping priority to high.
+[33mdd94496[m Going back to non iterable dataset, so shuffling works better, applying a light filter
+[33meb93707[m Hopefuly will train now
+[33m464f8e8[m weird dataloader stuff now
+[33m169ba61[m typo
+[33m5fe9255[m More fixes
+[33m97dab8d[m Column name fix
+[33mee58973[m Removing lambda due to pickling errors
+[33m9ac6322[m Fix for map in iterable mode
+[33m9062b09[m Typo
+[33mdd804e5[m Proper use of iterable_dataset
+[33mc6b05c3[m map and filter on iterable dataset
+[33mcfb2ce0[m bnb
+[33mf86356a[m trying cheaper optimizer to solve ooms
+[33m9abc085[m 7b scripto
+[33m89c79c2[m Lora config
+[33m615a1f1[m Prepping for 7b training
+[33m24a0bc4[m Some prompt tweaks I thought of for next time
+[33mae6f8ed[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m5b8aac6[m Adding script to convert silver data that we send to openai into something we can run through mise/birr
+[33m821e899[m Lora misconfiguration
+[33m4e8c89a[m Filtering off the weird tail ends of the distribution to make training smoother
+[33mebef588[m Adding linear layers from visual network to target modules LORA
+[33me574a47[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m44bd86b[m Sampling some sequence lengths
+[33mcf8e25f[m Lora config
+[33m6887358[m Adding lora config to try to address OOMs
+[33m235d8ac[m More flexibility in dataloader dims
+[33me3d3037[m Merge remote-tracking branch 'origin/main'
+[33m771f5a1[m Hopefully the last changes
+[33m7e01d72[m Fixing runeval to work with qwen2vl batch inferences
+[33m4bf8e82[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m9c13fd1[m Adding in eval scripts from oe-data-internal now all in one place
+[33m06894ac[m More realistic configuration
+[33m521c860[m New images work much better now, and device map fix
+[33mdde7907[m More typos
+[33mb7a5eb3[m Flash attention as part of the image
+[33m9a44b02[m New image, dont need to install
+[33m869c220[m Moving to making a new dockerfile
+[33m79909ec[m More pip stuff
+[33mf27df2a[m Use mini dataset now for testing
+[33m6769cbc[m Enabling model eval
+[33mcbb6fbb[m batch inference slowness
+[33mb3687fe[m Hoping to get a quick batch inference pipeline rolling
+[33m5ad17d7[m Starting batch inference script to measure performance, train script using proper model from config now
+[33m157dd94[m missing libaio
+[33m4146c0a[m Datasets version
+[33m64d5430[m extra index
+[33m3c4e80e[m Back to pip... sigh
+[33mc85eef5[m More env stuff
+[33m76cf857[m env fix
+[33md9bc241[m Had to swtich to conda env override for gantry due to cu118 compat
+[33me793f5f[m Gantry requirements
+[33m484ebc4[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33mbe5342a[m chmodding
+[33m4c7ee9d[m Script adjustment
+[33m45c82e2[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m5bbb42b[m Setting up for a real train run
+[33mf75e0a2[m Merge branch 'main' of https://github.com/allenai/pdelfin
+[33m9cd8403[m Silver dataset adjustments
+[33m2930534[m Prepping for gantry
+[33m69cdf25[m Should be merging the LORA adapters back into the model for the final checkpoint
+[33mc75e0ce[m Flash attention and mixed precision training, works quite a bit faster
+[33m95d5a69[m Merge branch 'main' of https://github.com/allenai/pdelfin into main
+[33m736d38a[m Much happier gpu utilization
+[33mede0f45[m Moving the openai data generation stuff to this repo now
+[33m9d13bdd[m No need to save tokenizer
+[33m266f8b7[m typos
+[33meac34af[m Loading dataset from config now
+[33m5fef33f[m Basic LORA trainer, doesn't seem to make any speed difference
+[33m44c7f26[m Prepping new training stuff
+[33md644dbc[m Smaller config for now, fixing a few requirements
+[33m765c251[m Hoping to get a basic hf Trainer to run
+[33mf982284[m Tries to run a forward pass but oOMS
+[33m8c86502[m Okay, reasonably happy with the dataprep pipeline
+[33m6fb8f2d[m Adding test to make sure the traning and inference time tokenization stays identical, currenlty failing
+[33m21bac27[m Prepping data to be in a trainable format
+[33m1fcd549[m Pyproject dependency cleanup
+[33m241ba49[m merge
+[33m563e1e0[m Pyproject stuff
+[33m488ddb1[m Fixing formating in pyproject
+[33m4628123[m Basic forward generation pass with openai dataset and qwen2vl
+[33m924e59f[m Importing core training config stuff from dolma refine
+[33m07b5295[m Formatting
+[33m61d723c[m Dataloader capabable of loading 38k rows reasonably fast
+[33m3bf8df9[m Starting to write dataloader for visual lm data
+[33mcab7f00[m Fixing close file warning
+[33md5b9b08[m 450tok/sec/core with smollm that appears to work well
+[33m96a99b1[m Using SmolLM, seems a lot better and is able to pass some tests
+[33m30b97cd[m Testing coherence with distilgpt2, but it doesn't work great
+[33m8204d22[m Trying distilgpt2 instead of kenlm
+[33mff1496e[m Moving a whole bunch of code over, still broken
+[33m2d52721[m Moving pdf filter code over with tests
+[33m05249e7[m Running personalize script on template
+[33mcb5a88c[m Update README.md
+[33m9381a4d[m Initial commit
